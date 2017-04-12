@@ -11,20 +11,44 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <!-- All http imports -->
-    <link rel="import" href="nav.html">
 </head>
 <body>
 
-<!-- This script will import the nav bar and add it in current page -->
-<!-- Link - https://www.html5rocks.com/en/tutorials/webcomponents/imports/ -->
-<script>
-    var link = document.querySelector('link[rel="import"]');
-    var content = link.import;
-    // Grab DOM from warning.html's document.
-    var el = content.querySelector('.nav');
-    document.body.appendChild(el.cloneNode(true));
-</script>
+<!-- Nav bar using materialize framework -->
+<!-- Link - http://materializecss.com/navbar.html -->
+<nav class="nav-extended">
+    <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo">Deepak Sood</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">HOME</a></li>
+            <li class="active"><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a> </li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="index.html">HOME</a></li>
+            <li class="active"><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a> </li>
+        </ul>
+    </div>
+</nav>
+<!-- Nav bar ends -->
+
+<!-- Footer -->
+<footer class="page-footer">
+    <div class="footer-copyright">
+        <div class="container center" >
+            Made with love &hearts; using <a class="black-text" href="https://github.com/deepaksood619/MyWebsite">github</a>
+        </div>
+    </div>
+</footer>
+<!-- Footer ends -->
 
 <!-- -----Scripts Start----- -->
 <!--Import jQuery before materialize.js-->
