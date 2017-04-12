@@ -29,6 +29,7 @@ otherwise skip the links
 I have hosted my website using firebase and used [node.js](https://nodejs.org/en/) as a server for serving pages, as my website is going to be a multiple page website with a blog, and for future proofing, if website grows and needs to integrate some server features.
 
 **+Getting started with html and css in minimum amount of time**
+
 ![alt-text](https://github.com/deepaksood619/MyWebsite/blob/master/markdown/link.jpg "Read to grow")
 >Best tutorials to get a lot of knowledge without wasting much time. Best if you have Coding background and just wanted a site and not going to be a web developer in long run.
 >Best for researcher and enthusiasts who is just going to create a single website in his lifetime.
@@ -41,11 +42,13 @@ I have hosted my website using firebase and used [node.js](https://nodejs.org/en
 >1. [Website](http://materializecss.com/) provides everything you need.
 >2. [Tutorials Point](http://www.tutorialspoint.com/materialize/) alternative, but start with Website.
 
-####Initial Setup of website
+###Initial Setup of website
+
 1. Setup **firebase** initial project structure.
 2. Add **Materialize** to the project structure.
 
-####Components used in the website
+###Components used in the website
+
 1. [Navbar](http://materializecss.com/navbar.html) with Mobile collapse button.
   * Note: Navbar will be added in every page since it's a multipage website, therefore creating a seperate html with nav element and then importing it to all the pages is handy.
   * Follow [this](https://www.html5rocks.com/en/tutorials/webcomponents/imports/) for knowing how to use html imports.
