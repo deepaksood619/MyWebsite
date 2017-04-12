@@ -37,17 +37,18 @@ I have hosted my website using firebase and used [node.js](https://nodejs.org/en
 >2. [CSS Basics](https://www.youtube.com/playlist?list=PLqGj3iMvMa4IOmy04kDxh_hqODMqoeeCy)
 
 **+Now HTML and CSS is huge and designing the whole website by writing whole HTML and CSS rules is not in our plate, as are not front-end developers, So what do we do?**
->[Materialize](http://materializecss.com/) to the rescue!
+
 ![alt-text](https://github.com/deepaksood619/MyWebsite/blob/master/markdown/link.jpg "Read to grow")
+>[Materialize](http://materializecss.com/) to the rescue!
 >1. [Website](http://materializecss.com/) provides everything you need.
 >2. [Tutorials Point](http://www.tutorialspoint.com/materialize/) alternative, but start with Website.
 
-###Initial Setup of website
+#### Initial Setup of website :octocat:
 
 1. Setup **firebase** initial project structure.
 2. Add **Materialize** to the project structure.
 
-###Components used in the website
+#### Components used in the website :octocat:
 
 1. [Navbar](http://materializecss.com/navbar.html) with Mobile collapse button.
   * Note: Navbar will be added in every page since it's a multipage website, therefore creating a seperate html with nav element and then importing it to all the pages is handy.
